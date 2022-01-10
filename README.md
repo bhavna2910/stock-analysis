@@ -5,9 +5,9 @@ For earlier stock analysis, macro was prepared using VBA to analyze volume and r
 To overcome the same, the purpose of this challenge was to refactor the stock-analysis VBA code to collect same information on the same dataset as before and make the script run faster to improve performance and scalability of the code enabling the user to quickly analyze more data in terms of years or more stocks.
 
 ## Results:
-•	The 2017 and 18 tabs respectively hold all the data for the stocks.
-•	DQ Analysis tab has initial analysis only on “DQ” stock that had gathered initial interest of Steve’s parents.
-•	AllStocksAnalysis and yearValue Analysis has outputs as below:
+- The 2017 and 18 tabs respectively hold all the data for the stocks.
+- DQ Analysis tab has initial analysis only on “DQ” stock that had gathered initial interest of Steve’s parents.
+- AllStocksAnalysis and yearValue Analysis has outputs as below:
 o	yearValueAnalysis tab holds the initial analysis of Stocks based on the year selection but the code is NOT refactored.
 o	AllStocksAnalysis tab holds the same analysis on the same data set of stocks as in yearValueAnalysis tab; and includes the enhancement of refactored code that has boosted both the efficiency and the performance. 
 It is to be noted that the results generated on both the tabs are exactly the same but the run time of the code has significantly reduced. 
