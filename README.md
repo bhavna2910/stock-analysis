@@ -1,7 +1,9 @@
 # stock-analysis
 ## Project Purpose:
 For earlier stock analysis, macro was prepared using VBA to analyze volume and return for the dataset of 12 stocks in the year 2017 and 2018. But it was apparent that with the existing code, there were very high chances of encountering inefficiencies when the dataset would have been updated to all the stocks being traded in the stock market. 
+
 To overcome the same, the purpose of this challenge was to refactor the stock-analysis VBA code to collect same information on the same dataset as before and make the script run faster to improve performance and scalability of the code enabling the user to quickly analyze more data in terms of years or more stocks.
+
 ## Results:
 •	The 2017 and 18 tabs respectively hold all the data for the stocks.
 •	DQ Analysis tab has initial analysis only on “DQ” stock that had gathered initial interest of Steve’s parents.
@@ -9,16 +11,18 @@ To overcome the same, the purpose of this challenge was to refactor the stock-an
 o	yearValueAnalysis tab holds the initial analysis of Stocks based on the year selection but the code is NOT refactored.
 o	AllStocksAnalysis tab holds the same analysis on the same data set of stocks as in yearValueAnalysis tab; and includes the enhancement of refactored code that has boosted both the efficiency and the performance. 
 It is to be noted that the results generated on both the tabs are exactly the same but the run time of the code has significantly reduced. 
+
 **Return and Volume analysis on the 12 stocks:**
 •	In 2017, 11/12 stocks generated positive return from an approximate range of over 5% to about 200%.
 •	In the year 2018, only two stocks generated positive returns between 81%-84%. Two stocks, positive for two consecutive years include RUN and ENPH. Negative returns on the other 10 stocks was observed to be between the range of – (3% - 63%).
+
 **Elapsed Time for Running Code**:
 While refactoring, loop was done to loop through all the data one time.
 **Refactoring Status (Yes/No)	Year	Time Elapsed**
-No	2017	7.953125
-Yes	2017	0.109375
-No	2018	3.523438
-Yes	2018	0.109375
+- No	2017	7.953125
+- Yes	2017	0.109375
+- No	2018	3.523438
+- Yes	2018	0.109375
 
 The elapsed time for both the years optimized to about 0.109375 which is a great boost from the non-refactored code, thus proving that code quality has been refactored and optimized, significantly improving the overall code performance
 
