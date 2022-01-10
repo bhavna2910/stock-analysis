@@ -13,8 +13,8 @@ o	AllStocksAnalysis tab holds the same analysis on the same data set of stocks a
 It is to be noted that the results generated on both the tabs are exactly the same but the run time of the code has significantly reduced. 
 
 **Return and Volume analysis on the 12 stocks:**
-•	In 2017, 11/12 stocks generated positive return from an approximate range of over 5% to about 200%.
-•	In the year 2018, only two stocks generated positive returns between 81%-84%. Two stocks, positive for two consecutive years include RUN and ENPH. Negative returns on the other 10 stocks was observed to be between the range of – (3% - 63%).
+- In 2017, 11/12 stocks generated positive return from an approximate range of over 5% to about 200%.
+- In the year 2018, only two stocks generated positive returns between 81%-84%. Two stocks, positive for two consecutive years include RUN and ENPH. Negative returns on the other 10 stocks was observed to be between the range of – (3% - 63%).
 
 **Elapsed Time for Running Code**:
 While refactoring, loop was done to loop through all the data one time.
