@@ -27,20 +27,19 @@ While refactoring, loop was done to loop through all the data one time.
 The elapsed time for both the years optimized to about 0.109375 which is a great boost from the non-refactored code, thus proving that code quality has been refactored and optimized, significantly improving the overall code performance
 
 ## Summary:
-## Refactoring Code 
-## Advantages 
-### Maintainability: To make it easy to enhance and maintain in the future.
-### Removing Bad Smell: It prevents many future defects. Code Size is reduced. Confused coding is properly restructured.
-### Easier to Understand: Understandable code when you come back to look or refactor further in a few weeks/months, plus extensible code.
-### Improved Performance: Makes the code more efficient.
-### Testing Support: lead to more unit testable code.
-### Debugging Optimization: Clean code makes debugging faster.
+## Refactoring Code Advantages 
+- Maintainability: To make it easy to enhance and maintain in the future.
+- Removing Bad Smell: It prevents many future defects. Code Size is reduced. Confused coding is properly restructured.
+- Easier to Understand: Understandable code when you come back to look or refactor further in a few weeks/months, plus extensible code.
+- Improved Performance: Makes the code more efficient.
+- Testing Support: lead to more unit testable code.
+- Debugging Optimization: Clean code makes debugging faster.
 
-## Disadvantages:
-### Easy Duplication: The disadvantages of refactoring our code are that codes can be easily duplicated.
-### Increase in development time: it is possible to underestimate the amount of time for refactoring and end up working on it longer than you planned. And may not be safe. 
-### Increase Cost: More time means more cost being spent on a deliverable.
-### Delay in Overall Project: If re-factoring is taking more time, it may impact other deliverables for the project.
+## Refactoring CodeDisadvantages:
+- Easy Duplication: The disadvantages of refactoring our code are that codes can be easily duplicated.
+- Increase in development time: it is possible to underestimate the amount of time for refactoring and end up working on it longer than you planned. And may not be safe. 
+- Increase Cost: More time means more cost being spent on a deliverable.
+- Delay in Overall Project: If re-factoring is taking more time, it may impact other deliverables for the project.
 
 ## Refactoring the original VBA script
 ### Pros:
